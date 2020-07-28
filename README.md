@@ -1,4 +1,3 @@
-# https://vpeacock.github.io/project-work-11/
 
 ## Проектная работа 12
 
@@ -13,9 +12,10 @@
 
 ## Задачи:
 
-- разбить js на модули
-- подключить Git
-- установить и настроить Webpack
+- настройте editorconfig
+- настройте линтер
+- научить сервер раздавать статику
+- начать создавать API
 - залить проект на GitHub
 
 ## Стек технологий:
@@ -25,28 +25,23 @@
 - ООП
 - BEM
 - Webpack
-- Babel
 - Git
-- NPM;
-- Node.js;
+- Eslint
+- Nodemon
+- Editorconfig
+- NPM
+- Node.js
+
 
 ## Пакеты которые используются в сборках:
 
-- [Babel CLI](https://babeljs.io/docs/en/babel-cli#docsNav)
-- [Babel Core](https://babeljs.io/docs/en/babel-core)
-- [Babel Preset Evnvironment](https://babeljs.io/docs/en/babel-preset-env#docsNav)
-- [Сore JS](https://github.com/zloirock/core-js#readme)
-- [PostCSS](https://postcss.org/)
-- [Define plugin](https://webpack.js.org/plugins/define-plugin/)
-- [Style loader](https://github.com/webpack-contrib/style-loader)
-- [Optimize CSS assets](https://www.npmjs.com/package/optimize-css-assets-webpack-plugin)
-- [File loader](https://github.com/webpack-contrib/file-loader)
-- [Image Webpack loader](https://www.npmjs.com/package/image-webpack-loader)
-- [Cross-Env](https://www.npmjs.com/package/cross-env)
+- [Editorconfig](https://editorconfig.org/)
+- [Eslint](https://www.npmjs.com/package/eslint)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
 
 ## Инструкции по запуску:
 - Скачать или склонировать репозиторий
 - `npm i`- установка зависимостей при помощи пакетного менеджера npm
-- `npm run dev`- запустить проект в development режиме  
-- `npm run build`- запустить проект в режиме production-build
-- `npm run deploy`- разместить проект на github pages 
+- `npm run dev`- запустить сервер на localhost:3000 с хот релоудом  
+- `npm run start`- запустить сервер на localhost:3000 
+ 
